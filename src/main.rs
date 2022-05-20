@@ -8,8 +8,8 @@ use smartthermometer::SmartThermometer;
 /// Main task2 routine
 fn main() {
     println!("Task2 start");
-    let mut socket0 : SmartSocket = SmartSocket::new("Socket in kitchen");
-    let mut thermometer0 : SmartThermometer = SmartThermometer::new("Thermometer in kitchen");
+    let mut socket0: SmartSocket = SmartSocket::new("Socket in kitchen");
+    let mut thermometer0: SmartThermometer = SmartThermometer::new("Thermometer in kitchen");
     socket0.dis();
     socket0.en();
     socket0.update();
